@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+
+@import 'font-awesome.css';
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Lato:100,300,400);
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url(../images/bg_2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media ( min-width : 979px) {
+	body {
+		padding-top: 80px;
+	}
+}
+
+.blue {
+	color: #447fc8;
+}
+
+/* ########### */
+/* $NAVIGATION */
+/* ########### */
+.navbar .brand {
+	margin-top: 20px;
+	padding-bottom: 8px;
+	max-height: 40px;
+	width: auto;
+}
+
+.navbar .navbar-inner {
+	height: 80px;
+	background: white;
+	filter: none;
+}
+
+.navbar .nav {
+	margin-top: 20px;
+}
+
+.navbar .nav>li>a {
+	padding: 10px 10px 11px;
+	color: #333;
+	text-shadow: none;
+}
+
+.navbar .nav>li>a:hover {
+	color: #111;
+}
+
+.navbar .nav>li.active>a {
+	background: none;
+	color: #111;
+}
+
+.navbar .nav>li.active>a:hover {
+	background: none;
+	color: #111;
+}
+
+footer.white {
+	padding-top: 20px;
+	height: 50px;
+	background: white;
+	text-align: center;
+}
+
+/* ###### */
+/* $FONTS */
+/* ###### */
+.navbar {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+footer.navbar-fixed-bottom {
+	font-size: 16px;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+/* ######## */
+/* $QUERIES */
+/* ######## */
+/* Portrait tablet*/
+@media ( max-width : 980px) {
+	/* logo margin fix */
+	.navbar {
+		height: auto;
+		margin-bottom: 0;
+	}
+	.navbar .brand {
+		margin-top: 0;
+	}
+	.navbar .navbar-inner {
+		height: auto;
+	}
+	.navbar .nav>li>a:hover {
+		color: white;
+	}
+}
+
+#container-wraper {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	margin-top: 25px;
+	margin-bottom: 70px;
+    background: white;
+	text-align: left;
+    padding: 25px 30px;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	width: 24%;
+}
+
+.wraper-date {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	margin-bottom: 70px;
+    background: white;
+	text-align: left;
+    padding: 25px 30px;
+    font-size: 40px;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	opacity: 0.9;
+}

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#container-wraper {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	margin-top: 30px;
+	margin-bottom: 70px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: white;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	width: 90%;
+}
